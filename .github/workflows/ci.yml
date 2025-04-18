@@ -3,6 +3,8 @@ name: Dev Branch CI
 on:
   pull_request:
     branches: [ dev ] # ← dev 기준 PR만 체크!
+  push:
+    branches: [ dev ]
 
 jobs:
   build:
